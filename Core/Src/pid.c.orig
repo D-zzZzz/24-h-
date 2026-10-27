@@ -1,0 +1,139 @@
+#include "pid.h"
+#include "encoder.h"
+#include "mpu6050.h"
+#include "inv_mpu.h"
+#include "inv_mpu_dmp_motion_driver.h"
+#include "motor.h"
+#include <math.h>
+
+int Encoder_L,Encoder_R;//编码器
+//float Vertical_Kp=300,Vertical_Kd=2.2;//直立环 数量级（Kp:0`1000  Kd: 0~10）
+//float Velocity_Kp=-0.44,Velocity_Ki=-0.0022;//速度环 数量级 (Kp:0~1)
+
+volatile float Vertical_Kp=230,Vertical_Kd=1.1;//直立环 数量级（Kp:0`1000  Kd: 0~10）
+volatile float Velocity_Kp=0.446,Velocity_Ki=0.0025;//速度环 数量级 (Kp:0~1)
+
+/* Real-time contribution of each PID term, for OLED diagnostics. */
+volatile float Vertical_Kp_Component;
+volatile float Vertical_Kd_Component;
+volatile float Velocity_Kp_Component;
+volatile float Velocity_Ki_Component;
+
+float Turn_Kp,Turn_Kd;				//转向环
+
+volatile uint8_t stop;
+
+volatile uint8_t dmp_read_error;
+
+//陀螺仪
+float pitch,roll,yaw;
+short gyrox,gyroy,gyroz;
+short aacx,aacy,aacz;
+
+//闭环控制中间变量
+int Vertical_out,Velocity_out,Turn_out,Target_Speed,Target_Turn;
+int MOTOR1,MOTOR2;
+volatile float Med_Angle=7;//平衡时角度值的偏移量
+
+extern TIM_HandleTypeDef htim2,htim4;
+
+//直立环PD控制器
+//输入：期望角度、真实角度、角速度
+int Vertical(float Med,float Angle,float gyro_Y)
+{
+    int temp;
+    Vertical_Kp_Component = Vertical_Kp * (Angle - Med);
+    Vertical_Kd_Component = Vertical_Kd * gyro_Y;
+    temp = Vertical_Kp_Component + Vertical_Kd_Component;
+    return temp;
+}
+
+//速度环PI控制器
+//输入：期望速度、左编码器、右编码器
+int Velocity(int Target,int encoder_L,int encoder_R)
+{
+    int Err,temp;
+    float Err_LowOut;
+    static float Err_LowOut_Last,Encoder_S;
+    static float a=0.7;
+    //1.计算偏差值
+    Err=(-encoder_L+encoder_R)-Target;
+    //2.低通滤波
+    Err_LowOut=(1-a)*Err+a*Err_LowOut_Last;
+    Err_LowOut_Last=Err_LowOut;
+    //3.积分
+    Encoder_S+=Err_LowOut;
+    //4.积分限幅
+    Encoder_S=Encoder_S>20000.0f?20000.0f:(Encoder_S<(-20000.0f)?(-20000.0f):Encoder_S);
+
+    if(stop==1)Encoder_S=0,stop=0;
+    //5.速度环计算
+    Velocity_Kp_Component = Velocity_Kp * Err_LowOut;
+    Velocity_Ki_Component = Velocity_Ki/10.0 * Encoder_S;
+    temp = Velocity_Kp_Component + Velocity_Ki_Component;
+    return temp;
+
+}
+
+uint8_t PID_SetParameters(float vertical_kp, float vertical_kd,
+                          float velocity_kp, float velocity_ki,
+                          float pitch_mid)
+{
+    uint32_t primask;
+
+    if (!isfinite(vertical_kp) || !isfinite(vertical_kd) ||
+        !isfinite(velocity_kp) || !isfinite(velocity_ki) ||
+        !isfinite(pitch_mid) ||
+        (vertical_kp < -1000.0f) || (vertical_kp > 1000.0f) ||
+        (vertical_kd < -10.0f) || (vertical_kd > 10.0f) ||
+        (velocity_kp < -20.0f) || (velocity_kp > 20.0f) ||
+        (velocity_ki < -1.0f) || (velocity_ki > 1.0f) ||
+        (pitch_mid < -45.0f) || (pitch_mid > 45.0f))
+        return 0;
+
+    /* Apply all five values as one transaction with respect to control(). */
+    primask = __get_PRIMASK();
+    __disable_irq();
+    Vertical_Kp = vertical_kp;
+    Vertical_Kd = vertical_kd;
+    Velocity_Kp = velocity_kp;
+    Velocity_Ki = velocity_ki;
+    Med_Angle = pitch_mid;
+    stop = 1;
+    if (primask == 0U)
+        __enable_irq();
+
+    return 1;
+}
+
+//转向环PD控制器
+//输入：角速度，角度值
+int Turn(int gyro_Z,int Target_Turn)
+{
+    int temp;
+    temp =Turn_Kp*Target_Turn+Turn_Kd*gyro_Z;
+    return temp;
+}
+
+void control(void) //每隔10ms调用一次
+{
+    int PWM_out;
+    //1.读取传感器的值，包括编码器和陀螺仪
+    Encoder_L=Read_Speed(&htim2);
+    Encoder_R=-Read_Speed(&htim4);
+    dmp_read_error = mpu_dmp_get_data(&pitch,&roll,&yaw);
+    MPU_Get_Gyroscope(&gyrox,&gyroy,&gyroz);
+    MPU_Get_Accelerometer(&aacx,&aacy,&aacz);
+
+    //2.将数据传入PID控制器,计算出输出结果，左右两个电机的转速值
+    Velocity_out=Velocity(Target_Speed,Encoder_L,Encoder_R);
+    Vertical_out=Vertical(Velocity_out+Med_Angle,pitch,gyroy);
+    //Turn_out=Turn(gyroz,Target_Turn);
+    PWM_out=Vertical_out;
+    MOTOR1=PWM_out-Turn_out;
+    MOTOR2=PWM_out+Turn_out;
+    Limit(&MOTOR1,&MOTOR2);
+    Load(MOTOR1,MOTOR2);
+//	Load(7200,7200);
+
+}

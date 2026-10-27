@@ -1,0 +1,1630 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+U1
+FOOTPRINT
+MP1584模块
+PARTTYPE
+MP1584模块
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U1
+Symbol
+MP1584模块
+Device
+MP1584模块
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Name
+
+Unique ID
+gge1
+Pin Type
+IN
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+link
+
+_
+3
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U3
+FOOTPRINT
+TB6612模块
+PARTTYPE
+TB6612模块
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U3
+Symbol
+TB6612模块
+Device
+TB6612模块
+Name
+TB6612
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge3
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U5
+FOOTPRINT
+GY521
+PARTTYPE
+MPU6050模块
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U5
+Symbol
+MPU6050模块
+Device
+MPU6050模块
+Name
+MPU6050模块
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge4
+link
+
+Manufacturer
+
+Manufacturer Part
+
+Supplier Part
+
+Supplier
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+OLED1
+FOOTPRINT
+0.96OLED_4P
+PARTTYPE
+0.96OLED模块_4P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+OLED1
+Symbol
+0.96OLED模块_4P
+Device
+0.96OLED模块_4P
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge5
+Supplier Footprint
+插件
+Description
+
+3D Model Title
+0.96OLED_4P
+
+*
+]
+[
+DESIGNATOR
+U6
+FOOTPRINT
+NRF24L01
+PARTTYPE
+NRF24L01
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U6
+Symbol
+NRF24L01
+Device
+NRF24L01
+Value
+2.4G
+Name
+NRF24L01
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge6
+工作温度
+
+规格
+
+Manufacturer
+
+Resistance
+
+Description
+
+3D Model Title
+User Library-NRF24L01
+
+*
+]
+[
+DESIGNATOR
+U7
+FOOTPRINT
+WIFIM-TH_8P-L24.7-W14.4-P2.54
+PARTTYPE
+ESP-01
+DESCRIPTION
+核心处理器:-;频率:2.4GHz;天线形式:板载PCB天线;发射功率:16dBm;接收灵敏度:-90dBm;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+ESP-01
+Designator
+U7
+Device
+ESP-01
+Value
+2.4GHz
+Name
+2.4GHz
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge7
+LCSC Part Name
+体积超小的802.11b/g/nWi-FiSOC模块
+Supplier Part
+C503581
+Manufacturer
+Ai-Thinker(安信可)
+Manufacturer Part
+ESP-01
+Supplier Footprint
+-
+JLCPCB Part Class
+扩展库
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20200407/C503581_BFDAA19F4B592DB0CEE4D61B6918C625.pdf
+Supplier
+LCSC
+Core Processor
+-
+Wireless Standard
+-
+Support Interface
+GPIO；UART
+Antenna Type
+板载PCB天线
+Output Power
+16dBm
+Operating Voltage
+3V~3.6V
+Receive  Current
+-
+Send  Current
+-
+Sensitivity
+-90dBm
+Operating Temperature
+-20℃~+85℃
+Description
+核心处理器:-;频率:2.4GHz;天线形式:板载PCB天线;发射功率:16dBm;接收灵敏度:-90dBm;
+3D Model Title
+WIFIM-TH_8P-L24.7-W14.4-H2.8-P2.54
+
+*
+]
+[
+DESIGNATOR
+BLUETOOTH
+FOOTPRINT
+HC-05 PCB
+PARTTYPE
+HC-05
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+BLUETOOTH
+Symbol
+HC-05
+Device
+HC-05
+Name
+JDY-31
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge8
+Pin Type
+IN
+Description
+
+
+*
+]
+[
+DESIGNATOR
+U8
+FOOTPRINT
+CONN-TH_6P-P2.50_WAFER-XH2.54-6PWZ
+PARTTYPE
+WAFER-XH2.54-6PWZ
+DESCRIPTION
+插针结构:1x6P;间距:2.54mm;安装方式:弯插;总PIN数:6P;排数:1;每排PIN数:6;额定电流:2A;工作温度范围:-25℃~+85℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+WAFER-XH2.54-6PWZ
+Designator
+U8
+Device
+WAFER-XH2.54-6PWZ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge9
+LCSC Part Name
+XH 2.54mm 1x6P 弯插
+Supplier Part
+C5359643
+Manufacturer
+XUNPU(讯普)
+Manufacturer Part
+WAFER-XH2.54-6PWZ
+Supplier Footprint
+弯插,P=2.5mm
+JLCPCB Part Class
+扩展库
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20230221/397FB6E0B838EFC6EA17AAEABEF58A8D.pdf
+Supplier
+LCSC
+Pins Structure
+1x6P
+Pitch
+2.54mm
+Mounting Style
+弯插
+Number of Pins
+6P
+Number of Rows
+1
+Number of PINs Per Row
+6
+Current Rating (Max)
+2A
+Operating Temperature Range
+-25℃~+85℃
+Name
+WAFER-XH2.54-6PWZ
+Description
+插针结构:1x6P;间距:2.54mm;安装方式:弯插;总PIN数:6P;排数:1;每排PIN数:6;额定电流:2A;工作温度范围:-25℃~+85℃;
+3D Model Title
+CONN-TH_6P-P2.50_WAFER-XH2.54-6PWZ
+
+*
+]
+[
+DESIGNATOR
+U9
+FOOTPRINT
+CONN-TH_6P-P2.50_WAFER-XH2.54-6PWZ
+PARTTYPE
+WAFER-XH2.54-6PWZ
+DESCRIPTION
+插针结构:1x6P;间距:2.54mm;安装方式:弯插;总PIN数:6P;排数:1;每排PIN数:6;额定电流:2A;工作温度范围:-25℃~+85℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+WAFER-XH2.54-6PWZ
+Designator
+U9
+Device
+WAFER-XH2.54-6PWZ
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge10
+LCSC Part Name
+XH 2.54mm 1x6P 弯插
+Supplier Part
+C5359643
+Manufacturer
+XUNPU(讯普)
+Manufacturer Part
+WAFER-XH2.54-6PWZ
+Supplier Footprint
+弯插,P=2.5mm
+JLCPCB Part Class
+扩展库
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20230221/397FB6E0B838EFC6EA17AAEABEF58A8D.pdf
+Supplier
+LCSC
+Pins Structure
+1x6P
+Pitch
+2.54mm
+Mounting Style
+弯插
+Number of Pins
+6P
+Number of Rows
+1
+Number of PINs Per Row
+6
+Current Rating (Max)
+2A
+Operating Temperature Range
+-25℃~+85℃
+Name
+WAFER-XH2.54-6PWZ
+Description
+插针结构:1x6P;间距:2.54mm;安装方式:弯插;总PIN数:6P;排数:1;每排PIN数:6;额定电流:2A;工作温度范围:-25℃~+85℃;
+3D Model Title
+CONN-TH_6P-P2.50_WAFER-XH2.54-6PWZ
+
+*
+]
+[
+DESIGNATOR
+CN1
+FOOTPRINT
+CONN-TH_2P-P5.08_2EHDR-02P
+PARTTYPE
+LC-2P-S-5.08-W
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+LC-2P-S-5.08-W
+Designator
+CN1
+Device
+LC-2P-S-5.08-W
+Name
+LC-2P-S-5.08-W
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge15
+LCSC Part Name
+LC-2P-S-5.08-W
+Supplier Part
+C9900019070
+Manufacturer
+
+Manufacturer Part
+LC-2P-S-5.08-W
+Supplier Footprint
+CONN-TH_2P-P5.08_2EHDR-02P
+JLCPCB Part Class
+扩展库
+Datasheet
+https://atta.szlcsc.comnull
+Supplier
+LCSC
+Description
+
+3D Model Title
+CONN-TH_2P-P5.08_2EHDR-02P
+
+*
+]
+[
+DESIGNATOR
+U21
+FOOTPRINT
+HC-SRO4超声波模块
+PARTTYPE
+超声波模块
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U21
+Symbol
+HC-SRO4超声波模块
+Device
+超声波模块
+Name
+超声波模块
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge16
+Description
+
+
+*
+]
+[
+DESIGNATOR
+R40
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R40
+Device
+Res_0603
+Symbol
+电阻
+Value
+100K
+Unique ID
+gge24
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+Name
+100K
+Description
+
+3D Model Title
+R0603_L1.6-W0.8-H0.5
+
+*
+]
+[
+DESIGNATOR
+R41
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R41
+Device
+Res_0603
+Symbol
+电阻
+Value
+10K
+Unique ID
+gge25
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+Name
+10K
+Description
+
+3D Model Title
+R0603_L1.6-W0.8-H0.5
+
+*
+]
+[
+DESIGNATOR
+R42
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R42
+Device
+Res_0603
+Symbol
+电阻
+Value
+10K
+Unique ID
+gge28
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+Name
+10K
+Description
+
+3D Model Title
+R0603_L1.6-W0.8-H0.5
+
+*
+]
+[
+DESIGNATOR
+R43
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R43
+Device
+Res_0603
+Symbol
+电阻
+Value
+10K
+Unique ID
+gge29
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Supplier Footprint
+0603
+Name
+10K
+Description
+
+3D Model Title
+R0603_L1.6-W0.8-H0.5
+
+*
+]
+[
+DESIGNATOR
+U30
+FOOTPRINT
+STM32C8T6
+PARTTYPE
+STM32C8T6
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+U30
+Symbol
+STM32C8T6
+Device
+STM32C8T6
+Name
+STM32C8T6开发板
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge31
+Description
+
+
+*
+]
+[
+DESIGNATOR
+SW3
+FOOTPRINT
+SW-TH_6P-8.5-8.5-ZS
+PARTTYPE
+8.5-8.5 ZS
+DESCRIPTION
+电路结构:双刀双掷;自锁/无锁:自锁;安装方式:直插;触点电流:100mA;额定电压:30V;带灯:不带;作用力:1.8N;工作寿命:5千次;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+8.5-8.5 ZS
+Designator
+SW3
+Device
+8.5-8.5 ZS
+Name
+8.5-8.5 ZS
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge157
+LCSC Part Name
+按键开关8.5x8.5 自锁高头 180gf
+Supplier Part
+C5379895
+Manufacturer
+SHOU HAN(首韩)
+Manufacturer Part
+8.5-8.5 ZS
+Supplier Footprint
+插件
+JLCPCB Part Class
+扩展库
+Datasheet
+https://item.szlcsc.com/datasheet/8.5-8.5%2520ZS/6245003.html
+Supplier
+LCSC
+3D Model Title
+SW-TH_6P-8.5-8.5-ZS
+Circuit
+双刀双掷
+Self Lock / No Lock
+自锁
+Actuator Style
+矩形柱塞
+IP Rating
+-
+Mounting Type
+直插
+Contact Current
+100mA
+Voltage Rating
+30V
+Actuator/Cap Color
+白色
+With Lamp
+不带
+Termination Style
+PC引脚
+Operating Force
+1.8N
+Operating Temperature
+-10℃~+70℃
+Life
+5千次
+Description
+电路结构:双刀双掷;自锁/无锁:自锁;安装方式:直插;触点电流:100mA;额定电压:30V;带灯:不带;作用力:1.8N;工作寿命:5千次;
+
+*
+]
+[
+DESIGNATOR
+D9
+FOOTPRINT
+SMA-SMD_L4.4-W2.7-LS5.4-RD
+PARTTYPE
+SS34_C22448055
+DESCRIPTION
+正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SS34_C22448055
+Designator
+D9
+Device
+SS34_C22448055
+Name
+SS34
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge146
+LCSC Part Name
+电压:40V 电流:3A
+Supplier Part
+C22448055
+Manufacturer
+XUMAO(旭茂微)
+Manufacturer Part
+SS34
+Supplier Footprint
+SMA
+JLCPCB Part Class
+扩展库
+Datasheet
+https://item.szlcsc.com/datasheet/SS34/24106939.html
+Supplier
+LCSC
+3D Model Title
+SMA-SMD_L4.4-W2.7-LS5.4-RD
+Voltage - Forward(Vf@If)
+550mV@3A
+Voltage - DC Reverse(Vr)
+40V
+Current - Rectified
+3A
+Reverse Leakage Current (Ir)
+100uA@40V
+Operating Junction Temperature Range
+-55℃~+150℃
+Description
+正向压降(Vf):550mV@3A;直流反向耐压(Vr):40V;整流电流:3A;
+
+*
+]
+[
+DESIGNATOR
+COM1
+FOOTPRINT
+HDR-TH_4P-P2.54-V-M
+PARTTYPE
+PZ254V-11-04P
+DESCRIPTION
+插针结构:1x4P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:4P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度:-40℃~+105℃;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+PZ254V-11-04P_C2691448
+Designator
+COM1
+Device
+PZ254V-11-04P
+Name
+PZ254V-11-04P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge161
+LCSC Part Name
+1x4P 间距:2.54mm 方针 直插
+Supplier Part
+C2691448
+Manufacturer
+XFCN(兴飞)
+Manufacturer Part
+PZ254V-11-04P
+Supplier Footprint
+插件,P=2.54mm
+JLCPCB Part Class
+扩展库
+Datasheet
+https://item.szlcsc.com/datasheet/PZ254V-11-04P/2801085.html
+Supplier
+LCSC
+3D Model Title
+HDR-TH_4P-P2.54-M-LI-1X4P
+Pin Structure
+1x4P
+Pitch
+2.54mm
+Row Spacing
+-
+Circluar Pins/Square Pins
+方针
+Mounting Type
+直插
+Number of Rows
+单排
+Number of Pins
+4P
+Current Rating
+3A
+Voltage Rating (Max)
+250V
+Length of Mating Pin
+6mm
+Insulation Height
+2.5mm
+Length of End Connection Pin
+3mm
+Contact Material
+-
+Operating Temperature
+-40℃~+105℃
+Color
+黑色
+Description
+插针结构:1x4P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:4P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:-;工作温度:-40℃~+105℃;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+H2
+FOOTPRINT
+HDR-TH_20P-P2.54-V-M-1
+PARTTYPE
+HDR-M_2.54_1x20P
+DESCRIPTION
+间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+H2
+Symbol
+HDR_2.54-1x20P
+Device
+HDR-M_2.54_1x20P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Name
+
+Unique ID
+gge71_0
+Supplier Part
+C50981
+Supplier Footprint
+插件
+3D Model Title
+HDR-M-2.54_1x20
+Description
+间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+H1
+FOOTPRINT
+HDR-TH_20P-P2.54-V-M-1
+PARTTYPE
+HDR-M_2.54_1x20P
+DESCRIPTION
+间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+H1
+Symbol
+HDR_2.54-1x20P
+Device
+HDR-M_2.54_1x20P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Name
+
+Unique ID
+gge71
+Supplier Part
+C50981
+Supplier Footprint
+插件
+3D Model Title
+HDR-M-2.54_1x20
+Description
+间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+KEY1
+FOOTPRINT
+SW-TH_4P-L6.0-W6.0-P4.50-LS6.5
+PARTTYPE
+TS665CJ
+DESCRIPTION
+电路结构:单刀单掷;按钮形状:圆形按钮;安装方式:直插;开关长度:6mm;开关宽度:6mm;开关高度:5mm;触点电流:50mA;额定电压(DC):12V;带灯:-;机械寿命:-;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TS665CJ
+Designator
+KEY1
+Device
+TS665CJ
+Manufacturer Part
+
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge139
+LCSC Part Name
+6*6*5mm 直插 轻触开关
+Supplier Part
+C393938
+Manufacturer
+SHOU HAN(首韩)
+Supplier Footprint
+插件
+JLCPCB Part Class
+扩展库
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20190521/C393938_BDABEAC600B4C55E200A80AA129B70BC.pdf
+Supplier
+LCSC
+3D Model Title
+SW-TH_4P-L6.0-W6.0-H5.0-LS6.5-P4.50
+Circuit
+单刀单掷
+Actuator Style
+圆形按钮
+Mounting Style
+直插
+Switch Length
+6mm
+Switch Width
+6mm
+Switch Height
+5mm
+Contact Current
+50mA
+Voltage Rating (DC)
+12V
+With Lamp
+-
+Mechanical Life
+-
+Description
+电路结构:单刀单掷;按钮形状:圆形按钮;安装方式:直插;开关长度:6mm;开关宽度:6mm;开关高度:5mm;触点电流:50mA;额定电压(DC):12V;带灯:-;机械寿命:-;
+
+*
+]
+[
+DESIGNATOR
+5V
+FOOTPRINT
+HDR-TH_4P-P2.54-V-M-R2-C2-S2.54
+PARTTYPE
+PZ254V-12-4P
+DESCRIPTION
+插针结构:2x2P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:4P;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+PZ254V-12-4P
+Designator
+5V
+Device
+PZ254V-12-4P
+Unique ID
+gge162
+Name
+5V
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer Part
+5V
+LCSC Part Name
+2x2P 间距:2.54mm 方针 直插
+Supplier Part
+C492419
+Manufacturer
+XFCN(兴飞)
+Supplier Footprint
+插件,P=2.54mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/PZ254V-12-4P/502975.html
+Supplier
+LCSC
+3D Model Title
+HDR-TH_4P-P2.54-M-LI-2X2P
+Pin Structure
+2x2P
+Pitch
+2.54mm
+Row Spacing
+2.54mm
+Circluar Pins/Square Pins
+方针
+Mounting Type
+直插
+Number of Rows
+双排
+Number of Pins
+4P
+Current Rating
+-
+Voltage Rating (Max)
+-
+Length of Mating Pin
+6mm
+Insulation Height
+2.5mm
+Length of End Connection Pin
+3mm
+Contact Material
+黄铜
+Contact Plating
+-
+Operating Temperature
+-40℃~+105℃
+Color
+黑色
+Description
+插针结构:2x2P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:4P;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+3.3V
+FOOTPRINT
+HDR-TH_4P-P2.54-V-M-R2-C2-S2.54
+PARTTYPE
+PZ254V-12-4P
+DESCRIPTION
+插针结构:2x2P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:4P;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+PZ254V-12-4P
+Designator
+3.3V
+Device
+PZ254V-12-4P
+Unique ID
+gge163
+Name
+3.3V
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer Part
+3.3V
+LCSC Part Name
+2x2P 间距:2.54mm 方针 直插
+Supplier Part
+C492419
+Manufacturer
+XFCN(兴飞)
+Supplier Footprint
+插件,P=2.54mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/PZ254V-12-4P/502975.html
+Supplier
+LCSC
+3D Model Title
+HDR-TH_4P-P2.54-M-LI-2X2P
+Pin Structure
+2x2P
+Pitch
+2.54mm
+Row Spacing
+2.54mm
+Circluar Pins/Square Pins
+方针
+Mounting Type
+直插
+Number of Rows
+双排
+Number of Pins
+4P
+Current Rating
+-
+Voltage Rating (Max)
+-
+Length of Mating Pin
+6mm
+Insulation Height
+2.5mm
+Length of End Connection Pin
+3mm
+Contact Material
+黄铜
+Contact Plating
+-
+Operating Temperature
+-40℃~+105℃
+Color
+黑色
+Description
+插针结构:2x2P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:4P;额定电流:-;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;
+
+*
+]
+(
++12V 
+U1-1 MP1584模块-VIN Passive 
+D9-1 SS34_C22448055-K Passive 
+)
+(
+GND 
+U1-2 MP1584模块-GND Passive 
+U1-4 MP1584模块-GND Passive 
+U3-3 TB6612模块-GND Input   
+U3-8 TB6612模块-GND Input   
+U3-9 TB6612模块-GND Input   
+U5-2 MPU6050模块-GND Input   
+OLED1-1 0.96OLED模块_4P-GND Input   
+U6-1 NRF24L01-GND Input   
+U7-1 ESP-01-GND Input   
+BLUETOOTH-3 HC-05-GND Passive 
+U8-2 WAFER-XH2.54-6PWZ-2 Passive 
+U9-2 WAFER-XH2.54-6PWZ-2 Passive 
+CN1-2 LC-2P-S-5.08-W-2 Input   
+U21-4 超声波模块-GND Input   
+R41-1 Res_0603-1 Input   
+U30-19 STM32C8T6-GND Input   
+U30-20 STM32C8T6-GND Input   
+U30-39 STM32C8T6-GND Input   
+COM1-2 PZ254V-11-04P-2 Passive 
+H2-19 HDR-M_2.54_1x20P-19 Input   
+H2-20 HDR-M_2.54_1x20P-20 Input   
+H1-19 HDR-M_2.54_1x20P-19 Input   
+KEY1-1 TS665CJ-A Passive 
+5V-4 PZ254V-12-4P-4 Passive 
+5V-2 PZ254V-12-4P-2 Passive 
+3.3V-4 PZ254V-12-4P-4 Passive 
+3.3V-2 PZ254V-12-4P-2 Passive 
+)
+(
++5V 
+U1-3 MP1584模块-OUT Passive 
+U3-13 TB6612模块-STBY Input   
+U5-1 MPU6050模块-VCC Input   
+OLED1-2 0.96OLED模块_4P-VCC Input   
+BLUETOOTH-2 HC-05-VCC Passive 
+U8-5 WAFER-XH2.54-6PWZ-5 Passive 
+U9-5 WAFER-XH2.54-6PWZ-5 Passive 
+U21-1 超声波模块-VCC Input   
+U30-38 STM32C8T6-5V Input   
+COM1-1 PZ254V-11-04P-1 Passive 
+H1-18 HDR-M_2.54_1x20P-18 Input   
+5V-1 PZ254V-12-4P-1 Passive 
+5V-3 PZ254V-12-4P-3 Passive 
+)
+(
+MOTOR_POWER 
+U3-1 TB6612模块-VM Input   
+R40-2 Res_0603-2 Input   
+SW3-2 8.5-8.5 ZS-2 Passive 
+SW3-5 8.5-8.5 ZS-5 Passive 
+D9-2 SS34_C22448055-A Passive 
+)
+(
+3V3 
+U3-2 TB6612模块-VCC Input   
+U6-2 NRF24L01-VCC Input   
+U7-8 ESP-01-VCC Input   
+R42-1 Res_0603-1 Input   
+R43-1 Res_0603-1 Input   
+U30-1 STM32C8T6-VBAT Input   
+U30-18 STM32C8T6-VCC3V3 Input   
+U30-40 STM32C8T6-VCC3V3 Input   
+H2-1 HDR-M_2.54_1x20P-1 Input   
+H2-18 HDR-M_2.54_1x20P-18 Input   
+H1-20 HDR-M_2.54_1x20P-20 Input   
+3.3V-1 PZ254V-12-4P-1 Passive 
+3.3V-3 PZ254V-12-4P-3 Passive 
+)
+(
+MOTOR1_1 
+U3-4 TB6612模块-AO1 Input   
+U8-1 WAFER-XH2.54-6PWZ-1 Passive 
+)
+(
+MOTOR1_2 
+U3-5 TB6612模块-AO2 Input   
+U8-6 WAFER-XH2.54-6PWZ-6 Passive 
+)
+(
+MOTOR2_1 
+U3-6 TB6612模块-BO2 Input   
+U9-1 WAFER-XH2.54-6PWZ-1 Passive 
+)
+(
+MOTOR2_2 
+U3-7 TB6612模块-BO1 Input   
+U9-6 WAFER-XH2.54-6PWZ-6 Passive 
+)
+(
+PWM1 
+U3-10 TB6612模块-PWMB Input   
+U30-25 STM32C8T6-PA8 Input   
+H1-5 HDR-M_2.54_1x20P-5 Input   
+)
+(
+BIN2 
+U3-11 TB6612模块-BIN2 Input   
+U30-10 STM32C8T6-PA5 Input   
+H2-10 HDR-M_2.54_1x20P-10 Input   
+)
+(
+BIN1 
+U3-12 TB6612模块-BIN1 Input   
+U30-22 STM32C8T6-PB13 Input   
+H1-2 HDR-M_2.54_1x20P-2 Input   
+)
+(
+AIN1 
+U3-14 TB6612模块-AIN1 Input   
+U30-21 STM32C8T6-PB12 Input   
+H1-1 HDR-M_2.54_1x20P-1 Input   
+)
+(
+AIN2 
+U3-15 TB6612模块-AIN2 Input   
+U30-9 STM32C8T6-PA4 Input   
+H2-9 HDR-M_2.54_1x20P-9 Input   
+)
+(
+PWM2 
+U3-16 TB6612模块-PWMA Input   
+U30-28 STM32C8T6-PA11 Input   
+H1-8 HDR-M_2.54_1x20P-8 Input   
+)
+(
+INT 
+U5-8 MPU6050模块-INT Input   
+U30-23 STM32C8T6-PB14 Input   
+H1-3 HDR-M_2.54_1x20P-3 Input   
+)
+(
+SDA 
+U5-4 MPU6050模块-SDA Input   
+U30-37 STM32C8T6-PB9 Input   
+H1-17 HDR-M_2.54_1x20P-17 Input   
+)
+(
+SCL 
+U5-3 MPU6050模块-SCL Input   
+U30-36 STM32C8T6-PB8 Input   
+H1-16 HDR-M_2.54_1x20P-16 Input   
+)
+(
+SCL_OLED 
+OLED1-3 0.96OLED模块_4P-SCL Input   
+U30-3 STM32C8T6-PC14 Input   
+H2-3 HDR-M_2.54_1x20P-3 Input   
+)
+(
+SDA_OLED 
+OLED1-4 0.96OLED模块_4P-SDA Input   
+U30-4 STM32C8T6-PC15 Input   
+H2-4 HDR-M_2.54_1x20P-4 Input   
+)
+(
+CE 
+U6-3 NRF24L01-CE Input   
+U30-30 STM32C8T6-PA15 Input   
+H1-10 HDR-M_2.54_1x20P-10 Input   
+)
+(
+CSN 
+U6-4 NRF24L01-CSN Input   
+U30-29 STM32C8T6-PA12 Input   
+H1-9 HDR-M_2.54_1x20P-9 Input   
+)
+(
+SCK 
+U6-5 NRF24L01-SCK Input   
+U30-31 STM32C8T6-PB3 Input   
+H1-11 HDR-M_2.54_1x20P-11 Input   
+)
+(
+MOSI 
+U6-6 NRF24L01-MOSI Input   
+U30-33 STM32C8T6-PB5 Input   
+H1-13 HDR-M_2.54_1x20P-13 Input   
+)
+(
+MISO 
+U6-7 NRF24L01-MISO Input   
+U30-32 STM32C8T6-PB4 Input   
+H1-12 HDR-M_2.54_1x20P-12 Input   
+)
+(
+IRQ 
+U6-8 NRF24L01-IRQ Input   
+U30-24 STM32C8T6-PB15 Input   
+H1-4 HDR-M_2.54_1x20P-4 Input   
+)
+(
+$1N4790 
+U7-7 ESP-01-RST Input   
+R42-2 Res_0603-2 Input   
+)
+(
+$1N4794 
+U7-6 ESP-01-EN Input   
+R43-2 Res_0603-2 Input   
+)
+(
+W_TX 
+U7-5 ESP-01-TXD Input   
+U30-8 STM32C8T6-PA3 Input   
+H2-8 HDR-M_2.54_1x20P-8 Input   
+)
+(
+W_RX 
+U7-4 ESP-01-RXD Input   
+U30-7 STM32C8T6-PA2 Input   
+H2-7 HDR-M_2.54_1x20P-7 Input   
+)
+(
+B_TX 
+BLUETOOTH-4 HC-05-TXD Passive 
+U30-16 STM32C8T6-PB11 Input   
+H2-16 HDR-M_2.54_1x20P-16 Input   
+)
+(
+B_RX 
+BLUETOOTH-5 HC-05-RXD Passive 
+U30-15 STM32C8T6-PB10 Input   
+H2-15 HDR-M_2.54_1x20P-15 Input   
+)
+(
+ENCODE1_2 
+U8-3 WAFER-XH2.54-6PWZ-3 Passive 
+U30-6 STM32C8T6-PA1 Input   
+H2-6 HDR-M_2.54_1x20P-6 Input   
+)
+(
+ENCODE1_1 
+U8-4 WAFER-XH2.54-6PWZ-4 Passive 
+U30-5 STM32C8T6-PA0 Input   
+H2-5 HDR-M_2.54_1x20P-5 Input   
+)
+(
+ENCODE2_2 
+U9-3 WAFER-XH2.54-6PWZ-3 Passive 
+U30-34 STM32C8T6-PB6 Input   
+H1-14 HDR-M_2.54_1x20P-14 Input   
+)
+(
+ENCODE2_1 
+U9-4 WAFER-XH2.54-6PWZ-4 Passive 
+U30-35 STM32C8T6-PB7 Input   
+H1-15 HDR-M_2.54_1x20P-15 Input   
+)
+(
+POWER 
+CN1-1 LC-2P-S-5.08-W-1 Input   
+SW3-1 8.5-8.5 ZS-1 Passive 
+SW3-4 8.5-8.5 ZS-4 Passive 
+)
+(
+TRIG 
+U21-2 超声波模块-Trig Input   
+U30-14 STM32C8T6-PB1 Input   
+H2-14 HDR-M_2.54_1x20P-14 Input   
+)
+(
+ECHO 
+U21-3 超声波模块-Echo Input   
+U30-13 STM32C8T6-PB0 Input   
+H2-13 HDR-M_2.54_1x20P-13 Input   
+)
+(
+POWER_ADC 
+R40-1 Res_0603-1 Input   
+R41-2 Res_0603-2 Input   
+U30-12 STM32C8T6-PA7 Input   
+H2-12 HDR-M_2.54_1x20P-12 Input   
+)
+(
+$1N5266 
+U30-2 STM32C8T6-PC13 Input   
+H2-2 HDR-M_2.54_1x20P-2 Input   
+)
+(
+KEY1 
+U30-11 STM32C8T6-PA6 Input   
+H2-11 HDR-M_2.54_1x20P-11 Input   
+KEY1-4 TS665CJ-D Passive 
+)
+(
+USART1_TX 
+U30-26 STM32C8T6-PA9 Input   
+COM1-3 PZ254V-11-04P-3 Passive 
+H1-6 HDR-M_2.54_1x20P-6 Input   
+)
+(
+USART1_RX 
+U30-27 STM32C8T6-PA10 Input   
+COM1-4 PZ254V-11-04P-4 Passive 
+H1-7 HDR-M_2.54_1x20P-7 Input   
+)
